@@ -1,0 +1,14 @@
+# gke
+gkename: gkeclus
+initial_node_count: 2
+username: cluster_admin
+password: my-secret-password
+machine_type: n1-standard-1
+disk_size_gb: 10
+zone: 'us-central1-a'
+project: lunar-standard-255205
+auth_kind: serviceaccount
+service_account_file: account.json
+# gke node pool
+npname: gkeclus-pool
+np_initial_node_count: 3
